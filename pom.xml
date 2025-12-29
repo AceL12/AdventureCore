@@ -6,7 +6,7 @@
 
     <groupId>com.endernerds</groupId>
     <artifactId>AdventureCore</artifactId>
-    <version>1.21.8</version>
+    <version>1.21.11</version>
     <packaging>jar</packaging>
 
     <name>AdventureCore</name>
@@ -59,7 +59,7 @@
     <pluginRepositories>
         <pluginRepository>
             <id>central</id>
-            <url>https://repo1.maven.org/maven2/</url>
+            <url>https://repo.maven.apache.org/maven2/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -70,6 +70,10 @@
     </pluginRepositories>
 
     <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2/</url>
+        </repository>
         <repository>
             <id>spigotmc-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
@@ -84,7 +88,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.21-R0.1-SNAPSHOT</version>
+            <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
