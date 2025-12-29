@@ -1,0 +1,14 @@
+name: AdventureCore
+version: '1.21.8'
+main: com.endernerds.AdventureCore.Main
+api-version: '1.21'
+authors: [ novi ]
+description: Core plugin for Unlimited Adventures
+website: endernerds.com
+
+commands:
+  adventurecore:
+    description: AdventureCore admin commands
+    usage: /adventurecore <reload|verbose>
+    permission: adventurecore.reload
+    permission-message: You don’t have permission.
