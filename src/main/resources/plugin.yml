@@ -1,5 +1,5 @@
 name: AdventureCore
-version: '1.21.8'
+version: '1.21.11'
 main: com.endernerds.AdventureCore.Main
 api-version: '1.21'
 authors: [ novi ]
