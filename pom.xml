@@ -6,7 +6,7 @@
 
     <groupId>com.endernerds</groupId>
     <artifactId>AdventureCore</artifactId>
-    <version>1.21.8</version>
+    <version>1.21.4-1.21.11</version>
     <packaging>jar</packaging>
 
     <name>AdventureCore</name>
